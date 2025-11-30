@@ -130,9 +130,6 @@ carouselIndicators.addEventListener("mouseleave", startCarousel);
 carousel.addEventListener("touchstart", stopCarousel);
 carousel.addEventListener("touchend", startCarousel);
 
-// Auto advance every 5 seconds
-setInterval(nextSlide, 5000);
-
 // Price Calculation Function
 function calculatePrice(
   checkinElement,
